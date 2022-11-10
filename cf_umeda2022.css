@@ -1,0 +1,323 @@
+* {
+  margin:0; padding:0;
+}
+body {
+  font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+}
+header{
+  background-color: rgb(255, 218, 225);
+  padding-bottom: 20px;
+}
+.margin{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 4vmax;
+  text-align: center;
+}
+.headerslogan {
+  font-size:2.5vmax;
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+.headerlink{
+  font-size: 1.5vmax;
+  float: left;
+  margin: 10px;
+}
+#news{
+  margin: 2vw;
+  padding: 3vw;
+  background-color: #fff5f5;
+  border: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: tomato;
+  font-size: 3.5vw;
+}
+.news_element{
+  border-top: solid;
+  border-color: rgb(161, 172, 181);
+  font-size: 3.3vw;
+  padding-bottom: 1%;
+  line-height: 5vw;
+}
+.slogan{
+  background-color: rgb(255, 218, 225);;
+  padding: 20px;
+  font-size: 1.5vmax;
+  clear: left;
+  text-align: center;
+}
+.chapter{
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.element{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.map{
+  float: left;
+  margin-right: 50px;
+  width: 313px;
+  height: 100%;
+}
+
+.traveltime{
+  margin: 20px;
+}
+footer{
+  background-color: rgb(255, 218, 225);
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  clear: left;
+}
+.flex_2{
+  display: flex;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  margin: 7px;
+ }
+@media screen and (min-width: 481px) {
+  * {
+    margin:0; padding:0;
+  }
+  body {
+    font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  }
+  .sticky_header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+  }
+  .sticky_header_logo{
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+  .sticky_header_title{
+    color: #F0F6Fc;
+    padding-left: 5px;
+    line-height: 30px;
+  }
+  .sticky_header_slogan{
+    color: #e4eaef;
+    padding-left: 8px;
+    margin-bottom: 30px;
+  }
+  header{
+    background-color: rgb(255, 218, 225);
+    padding-bottom: 20px;
+  }
+  .margin{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .title {
+    font-size: 4vmax;
+    text-align: center;
+  }
+  .headerslogan {
+    font-size:2.5vmax;
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  .headerlink{
+    font-size: 1.5vmax;
+    float: left;
+    margin: 10px;
+  }
+  #news{
+    margin-top: 2vw;
+    margin-bottom: 3.2vw;
+    padding: 1vw;
+    background-color: #fff5f5;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: tomato;
+    font-size: 1.5vw;
+  }
+  .news_element{
+    border-top: solid;
+    border-color: rgb(161, 172, 181);
+    font-size: 1.5vw;
+    padding-bottom: 2px;
+    line-height: 2vw;
+  }
+  .slogan{
+    background-color: rgb(255, 218, 225);;
+    padding: 20px;
+    font-size: 1.5vmax;
+    clear: left;
+  }
+  .chapter{
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .element{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .map{
+    float: left;
+    margin-right: 50px;
+    width: 313px;
+    height: 100%;
+  }
+  
+  .traveltime{
+    margin: 20px;
+  }
+  footer{
+    background-color: rgb(255, 218, 225);
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    clear: left;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  .flex_2{
+    display: flex;
+  }
+  .icon{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+   }
+}
+@media screen and (min-width: 960px) {
+  * {
+    margin:0; padding:0;
+  }
+  body {
+    font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  }
+  .sticky_header{
+    background-color:#161B22;
+    height: 60px;
+    display: flex;
+  }
+  .sticky_header_logo{
+    padding-left: 40px;
+    padding-top: 3px;
+  }
+  .sticky_header_title{
+    color: #F0F6Fc;
+    padding-left: 5px;
+    line-height: 30px;
+  }
+  .sticky_header_slogan{
+    color: #e4eaef;
+    padding-left: 8px;
+    margin-bottom: 30px;
+  }
+  header{
+    background-color: rgb(255, 218, 225);
+    padding-bottom: 20px;
+  }
+  .margin{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .title {
+    font-size: 4vmax;
+    text-align: center;
+  }
+  .headerslogan {
+    font-size:2.5vmax;
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  .headerlink{
+    font-size: 1.5vmax;
+    float: left;
+    margin: 10px;
+  }
+  #news{
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    background-color: #fff5f5;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: tomato;
+    font-size: 1.15vw;
+  }
+  .news_element{
+    border-top: solid;
+    border-color: rgb(161, 172, 181);
+    font-size: 1.15vw;
+    padding-bottom: 2px;
+    line-height: 1.5vw;
+  }
+  .slogan{
+    background-color: rgb(255, 218, 225);;
+    padding: 20px;
+    font-size: 1.5vmax;
+    clear: left;
+  }
+  .chapter{
+    height: 100%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  .element{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .map{
+    float: left;
+    margin-right: 50px;
+    width: 313px;
+    height: 100%;
+  }
+  
+  .traveltime{
+    margin: 20px;
+  }
+  footer{
+    background-color: rgb(255, 218, 225);
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    clear: left;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  .flex_2{
+    display: flex;
+  }
+   .icon{
+    width: 260px;
+    height: 260px;
+    margin: 40px;
+   }
+}
