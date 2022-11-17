@@ -7,8 +7,22 @@
   object-fit: cover;
 }
 
-.slick-next{ right:0!important; }
-.slick-prev{ left:0!important; }
+.slick-next{
+  right:0!important;
+  color: #000;/*黒にする*/
+  opacity: 1;/*デフォルトは.75が指定されている*/
+}
+.slick-prev{
+  left:0!important;
+}
+.slick-next::before{
+  color: #000;/*黒にする*/
+  opacity: 1;/*デフォルトは.75が指定されている*/
+}
+.slick-prev::before{
+  color: #000;/*黒にする*/
+  opacity: 1;/*デフォルトは.75が指定されている*/
+}
 .slick-arrow{ 
   z-index:2!important;
   width: 40px;
@@ -25,8 +39,22 @@
     object-fit: cover;
   }
   
-  .slick-next{ right:0!important; }
-  .slick-prev{ left:0!important; }
+  .slick-next{
+    right:0!important;
+    color: #000;/*黒にする*/
+    opacity: 1;/*デフォルトは.75が指定されている*/
+  }
+  .slick-prev{
+    left:0!important;
+  }
+  .slick-next::before{
+    color: #000;/*黒にする*/
+    opacity: 1;/*デフォルトは.75が指定されている*/
+  }
+  .slick-prev::before{
+    color: #000;/*黒にする*/
+    opacity: 1;/*デフォルトは.75が指定されている*/
+  }
   .slick-arrow{ 
     z-index:2!important;
     width: 40px;
@@ -44,8 +72,22 @@
     object-fit: cover;
   }
   
-  .slick-next{ right:0!important; }
-  .slick-prev{ left:0!important; }
+  .slick-next{
+    right:0!important;
+    color: #000;/*黒にする*/
+    opacity: 1;/*デフォルトは.75が指定されている*/
+  }
+  .slick-prev{
+    left:0!important;
+  }
+  .slick-next::before{
+    color: #000;/*黒にする*/
+    opacity: 1;/*デフォルトは.75が指定されている*/
+  }
+  .slick-prev::before{
+    color: #000;/*黒にする*/
+    opacity: 1;/*デフォルトは.75が指定されている*/
+  }
   .slick-arrow{ 
     z-index:2!important;
     width: 40px;

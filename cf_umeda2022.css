@@ -4,6 +4,44 @@
 body {
   font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
+.sticky_header{
+  background-color:black;
+  height: 100px;
+  padding: 6px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.sticky_header_logo{
+  padding-left: 5px;
+  padding-top: 3px;
+  float: left;
+}
+.sticky_header_title{
+  color: #F0F6Fc;
+  text-align: center;
+  line-height: 30px;
+  font-size: 17px;
+}
+.sticky_header_slogan{
+  color: #e4eaef;
+  text-align: center;
+  font-size: 15px;
+}
+.sticky_header_nav{
+  margin: 10px auto 0 auto;
+  width: 330px;
+  padding: 7px;
+  border-top: solid;
+  border-width: 2px;
+  border-color: #e4eaef;
+  clear: left;
+}
+.sticky_header_link{
+  color: #e4eaef;
+  font-size: 16px;
+  margin: 7px;
+}
 header{
   background-color: rgb(255, 218, 225);
   padding-bottom: 20px;
@@ -105,25 +143,33 @@ footer{
     z-index: 3;
   }
   .sticky_header_logo{
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 3px;
   }
   .sticky_header_title{
     color: #F0F6Fc;
-    padding-left: 5px;
+    padding-left: 15px;
+    text-align: left;
     line-height: 30px;
+    font-size: 18px;
+    
   }
   .sticky_header_slogan{
     color: #e4eaef;
-    padding-left: 8px;
+    padding-left: 15px;
+    text-align: left;
     margin-bottom: 30px;
+    font-size: 18px;
   }
   .sticky_header_nav{
+    border-top:none;
+    width: 370px;
+    padding: 0px;
     margin: 10px 30px 0 auto;
   }
   .sticky_header_link{
     color: #e4eaef;
-    font-size: 23px;
+    font-size: 18px;
     margin: 10px;
   }
   header{
@@ -224,7 +270,7 @@ footer{
     font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   }
   .sticky_header{
-    background-color:#161B22;
+    background-color:black;
     height: 60px;
     display: flex;
   }
