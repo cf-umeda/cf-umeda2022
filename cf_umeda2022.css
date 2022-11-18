@@ -319,13 +319,13 @@ footer{
   }
   .sticky_header_nav{
     border-top:none;
-    width: 420px;
+    width: 370px;
     padding: 0px;
     margin: 10px 10px 0 auto;
   }
   .sticky_header_link{
     color: #e4eaef;
-    font-size: 20px;
+    font-size: 18px;
     margin: 5px;
   }
   header{
