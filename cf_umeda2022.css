@@ -337,7 +337,7 @@ footer{
     margin: 5px;
   }
   header{
-    background-color: #EE1A97;
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     color: #F0F6Fc;
     padding-bottom: 20px;
   }
