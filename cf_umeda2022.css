@@ -21,12 +21,12 @@ body {
   color: #F0F6Fc;
   text-align: center;
   line-height: 30px;
-  font-size: 17px;
+  font-size: 4vw;
 }
 .sticky_header_slogan{
   color: #e4eaef;
   text-align: center;
-  font-size: 15px;
+  font-size: 4vw;
 }
 .sticky_header_nav{
   margin: 10px auto 0 auto;
@@ -39,11 +39,11 @@ body {
 }
 .sticky_header_link{
   color: #e4eaef;
-  font-size: 16px;
+  font-size: 4.6vw;
   margin: 7px;
 }
 header{
-  background-color: rgb(255, 218, 225);
+  background-color: #EE1A97;
   padding-bottom: 20px;
 }
 .margin{
@@ -74,7 +74,7 @@ nav{
   border: solid;
   border-radius: 5px;
   border-width: 3px;
-  border-color: tomato;
+  border-color: #EE1A97;
   font-size: 3.5vw;
 }
 .news_element{
@@ -85,7 +85,7 @@ nav{
   line-height: 5vw;
 }
 .slogan{
-  background-color: rgb(255, 218, 225);;
+  background-color: #EE1A97;;
   padding: 20px;
   font-size: 1.5vmax;
   clear: left;
@@ -103,17 +103,16 @@ nav{
   padding-bottom: 20px;
 }
 .map{
-  float: left;
-  margin-right: 50px;
-  width: 313px;
+  width: 90%;
   height: 100%;
+  margin-bottom: 20px;
 }
 
 .traveltime{
   margin: 20px;
 }
 footer{
-  background-color: rgb(255, 218, 225);
+  background-color: #EE1A97;
   height: 100px;
   text-align: center;
   padding-top: 50px;
@@ -130,12 +129,12 @@ footer{
 
 
 .concert_title{
-  background-color: rgb(255, 218, 225);
+  background-color: #EE1A97;
   text-align: center;
   font-size: 3vw;
 }
 .concert_element{
-  background-color: rgb(253, 237, 240);
+  background-color: #FEECF6;
   font-size: 2.5vw;
   margin: 20px;
   padding: 20px;line-height: 200%;
@@ -329,7 +328,7 @@ footer{
     margin: 5px;
   }
   header{
-    background-color: rgb(255, 218, 225);
+    background-color: #EE1A97;
     padding-bottom: 20px;
   }
   .margin{
@@ -361,7 +360,7 @@ footer{
     border: solid;
     border-radius: 20px;
     border-width: 3px;
-    border-color: tomato;
+    border-color: #EE1A97;
     font-size: 1.15vw;
   }
   .news_element{
@@ -372,7 +371,7 @@ footer{
     line-height: 1.5vw;
   }
   .slogan{
-    background-color: rgb(255, 218, 225);;
+    background-color: #EE1A97;;
     padding: 20px;
     font-size: 1.5vmax;
     clear: left;
@@ -399,7 +398,7 @@ footer{
     margin: 20px;
   }
   footer{
-    background-color: rgb(255, 218, 225);
+    background-color: #EE1A97;
     height: 100px;
     text-align: center;
     padding-top: 50px;
@@ -421,7 +420,7 @@ footer{
 
 
   .concert_title{
-    background-color: rgb(255, 218, 225);
+    background-color: #EE1A97;
     text-align: center;
     padding: 20px;
     font-size: 20px;
