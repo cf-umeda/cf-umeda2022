@@ -273,7 +273,21 @@ footer{
   }
   .icon{
     width: 80%;
-   }
+  }
+
+
+  .concert_title{
+    background-color: rgb(255, 218, 225);
+    text-align: center;
+    padding: 20px;
+    font-size: 2vw;
+  }
+  .concert_element{
+    background-color: rgb(253, 237, 240);
+    font-size: 2vw;
+    margin: 40px;
+    padding: 20px;line-height: 200%;
+  }
 }
 @media screen and (min-width: 825px) {
   * {
@@ -305,7 +319,7 @@ footer{
   }
   .sticky_header_nav{
     border-top:none;
-    width: 42px;
+    width: 420px;
     padding: 0px;
     margin: 10px 10px 0 auto;
   }
@@ -402,5 +416,21 @@ footer{
   }
    .icon{
     width: 80%;
-   }
+  }
+
+
+
+  .concert_title{
+    background-color: rgb(255, 218, 225);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .concert_element{
+    background-color: rgb(253, 237, 240);
+    font-size: 20px;
+    margin: 40px;
+    padding: 20px;line-height: 200%;
+  }
+
 }
