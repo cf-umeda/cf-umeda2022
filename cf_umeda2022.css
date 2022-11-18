@@ -114,7 +114,7 @@ nav{
   margin: 20px;
 }
 footer{
-  background-color: #EE1A97;
+  background-color: black;
   color: #F0F6Fc;
   height: 100px;
   text-align: center;
@@ -409,7 +409,7 @@ footer{
     margin: 20px;
   }
   footer{
-    background-color: #EE1A97;
+    background-color: black;
     color: #F0F6Fc;
     height: 100px;
     text-align: center;
