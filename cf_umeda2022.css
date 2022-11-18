@@ -30,7 +30,7 @@ body {
 }
 .sticky_header_nav{
   margin: 10px auto 0 auto;
-  width: 330px;
+  width: 95%;
   padding: 7px;
   border-top: solid;
   border-width: 2px;
@@ -120,14 +120,27 @@ footer{
   clear: left;
 }
 .flex_2{
+  text-align: center;
   display: flex;
+  justify-content: space-evenly;
 }
 .icon{
-  width: 60px;
-  height: 60px;
-  margin: 7px;
+  width: 90%;
  }
-@media screen and (min-width: 481px) {
+
+
+.concert_title{
+  background-color: rgb(255, 218, 225);
+  text-align: center;
+  font-size: 3vw;
+}
+.concert_element{
+  background-color: rgb(253, 237, 240);
+  font-size: 2.5vw;
+  margin: 20px;
+  padding: 20px;line-height: 200%;
+}
+@media screen and (min-width: 600px) {
   * {
     margin:0; padding:0;
   }
@@ -151,7 +164,7 @@ footer{
     padding-left: 15px;
     text-align: left;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 2vw;
     
   }
   .sticky_header_slogan{
@@ -159,18 +172,18 @@ footer{
     padding-left: 15px;
     text-align: left;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 2vw;
   }
   .sticky_header_nav{
     border-top:none;
-    width: 370px;
+    width: 45%;
     padding: 0px;
-    margin: 10px 30px 0 auto;
+    margin: 15px 10px 0 auto;
   }
   .sticky_header_link{
     color: #e4eaef;
-    font-size: 18px;
-    margin: 10px;
+    font-size: 2.2vw;
+    margin: 5px;
   }
   header{
     background-color: rgb(255, 218, 225);
@@ -254,15 +267,15 @@ footer{
     display: flex;
   }
   .flex_2{
+    text-align: center;
     display: flex;
+    justify-content: space-evenly;
   }
   .icon{
-    width: 150px;
-    height: 150px;
-    margin: 20px;
+    width: 80%;
    }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 825px) {
   * {
     margin:0; padding:0;
   }
@@ -275,18 +288,31 @@ footer{
     display: flex;
   }
   .sticky_header_logo{
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 3px;
   }
   .sticky_header_title{
     color: #F0F6Fc;
-    padding-left: 5px;
+    padding-left: 20px;
     line-height: 30px;
+    font-size: 20px;
   }
   .sticky_header_slogan{
     color: #e4eaef;
-    padding-left: 8px;
+    padding-left: 20px;
     margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .sticky_header_nav{
+    border-top:none;
+    width: 42px;
+    padding: 0px;
+    margin: 10px 10px 0 auto;
+  }
+  .sticky_header_link{
+    color: #e4eaef;
+    font-size: 20px;
+    margin: 5px;
   }
   header{
     background-color: rgb(255, 218, 225);
@@ -370,11 +396,11 @@ footer{
     display: flex;
   }
   .flex_2{
+    text-align: center;
     display: flex;
+    justify-content: space-evenly;
   }
    .icon{
-    width: 260px;
-    height: 260px;
-    margin: 40px;
+    width: 80%;
    }
 }
