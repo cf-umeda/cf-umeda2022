@@ -44,6 +44,7 @@ body {
 }
 header{
   background-color: #EE1A97;
+  color: #F0F6Fc;
   padding-bottom: 20px;
 }
 .margin{
@@ -86,6 +87,7 @@ nav{
 }
 .slogan{
   background-color: #EE1A97;;
+  color: #F0F6Fc;
   padding: 20px;
   font-size: 1.5vmax;
   clear: left;
@@ -113,6 +115,7 @@ nav{
 }
 footer{
   background-color: #EE1A97;
+  color: #F0F6Fc;
   height: 100px;
   text-align: center;
   padding-top: 50px;
@@ -127,11 +130,17 @@ footer{
   width: 90%;
  }
 
+.timeschedule_img{
+  width: 100%;
+}
+
 
 .concert_title{
   background-color: #EE1A97;
+  color: #F0F6Fc;
   text-align: center;
   font-size: 3vw;
+  padding: 10px;
 }
 .concert_element{
   background-color: #FEECF6;
@@ -329,6 +338,7 @@ footer{
   }
   header{
     background-color: #EE1A97;
+    color: #F0F6Fc;
     padding-bottom: 20px;
   }
   .margin{
@@ -372,6 +382,7 @@ footer{
   }
   .slogan{
     background-color: #EE1A97;;
+    color: #F0F6Fc;
     padding: 20px;
     font-size: 1.5vmax;
     clear: left;
@@ -399,6 +410,7 @@ footer{
   }
   footer{
     background-color: #EE1A97;
+    color: #F0F6Fc;
     height: 100px;
     text-align: center;
     padding-top: 50px;
@@ -421,6 +433,7 @@ footer{
 
   .concert_title{
     background-color: #EE1A97;
+    color: #F0F6Fc;
     text-align: center;
     padding: 20px;
     font-size: 20px;
