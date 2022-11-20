@@ -6,7 +6,7 @@ body {
 }
 .sticky_header{
   background-color:black;
-  height: 100px;
+  height:13%;
   padding: 6px;
   position: sticky;
   top: 0;
@@ -43,7 +43,7 @@ body {
   margin: 7px;
 }
 header{
-  background-color: #EE1A97;
+  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
   color: #F0F6Fc;
   padding-bottom: 20px;
 }
@@ -71,11 +71,11 @@ nav{
 #news{
   margin: 2vw;
   padding: 3vw;
-  background-color: #fff5f5;
+  background-color: rgb(255, 250, 251);
   border: solid;
   border-radius: 5px;
   border-width: 3px;
-  border-color: #EE1A97;
+  border-color: rgb(255, 218, 225);
   font-size: 3.5vw;
 }
 .news_element{
@@ -86,7 +86,7 @@ nav{
   line-height: 5vw;
 }
 .slogan{
-  background-color: #EE1A97;;
+  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
   color: #F0F6Fc;
   padding: 20px;
   font-size: 1.5vmax;
@@ -114,7 +114,7 @@ nav{
   margin: 20px;
 }
 footer{
-  background-color: black;
+  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
   color: #F0F6Fc;
   height: 100px;
   text-align: center;
@@ -130,20 +130,23 @@ footer{
   width: 90%;
  }
 
+.timeschedule_title{
+  text-align: center;
+}
 .timeschedule_img{
   width: 100%;
 }
 
 
 .concert_title{
-  background-color: #EE1A97;
+  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
   color: #F0F6Fc;
   text-align: center;
   font-size: 3vw;
   padding: 10px;
 }
 .concert_element{
-  background-color: #FEECF6;
+  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
   font-size: 2.5vw;
   margin: 20px;
   padding: 20px;line-height: 200%;
@@ -194,7 +197,7 @@ footer{
     margin: 5px;
   }
   header{
-    background-color: rgb(255, 218, 225);
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     padding-bottom: 20px;
   }
   .margin{
@@ -222,11 +225,11 @@ footer{
     margin-top: 2vw;
     margin-bottom: 3.2vw;
     padding: 1vw;
-    background-color: #fff5f5;
+    background-color: rgb(255, 250, 251);
     border: solid;
     border-radius: 20px;
     border-width: 3px;
-    border-color: tomato;
+    border-color: rgb(255, 218, 225);
     font-size: 1.5vw;
   }
   .news_element{
@@ -237,7 +240,7 @@ footer{
     line-height: 2vw;
   }
   .slogan{
-    background-color: rgb(255, 218, 225);;
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     padding: 20px;
     font-size: 1.5vmax;
     clear: left;
@@ -264,7 +267,7 @@ footer{
     margin: 20px;
   }
   footer{
-    background-color: rgb(255, 218, 225);
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     height: 100px;
     text-align: center;
     padding-top: 50px;
@@ -285,13 +288,13 @@ footer{
 
 
   .concert_title{
-    background-color: rgb(255, 218, 225);
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
   .concert_element{
-    background-color: rgb(253, 237, 240);
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     font-size: 2vw;
     margin: 40px;
     padding: 20px;line-height: 200%;
@@ -366,11 +369,11 @@ footer{
     margin-top: 3vw;
     margin-bottom: 2vw;
     padding: 1vw;
-    background-color: #fff5f5;
+    background-color: rgb(255, 250, 251);
     border: solid;
     border-radius: 20px;
     border-width: 3px;
-    border-color: #EE1A97;
+    border-color: rgb(255, 218, 225);
     font-size: 1.15vw;
   }
   .news_element{
@@ -381,7 +384,7 @@ footer{
     line-height: 1.5vw;
   }
   .slogan{
-    background-color: #EE1A97;;
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     color: #F0F6Fc;
     padding: 20px;
     font-size: 1.5vmax;
@@ -409,7 +412,7 @@ footer{
     margin: 20px;
   }
   footer{
-    background-color: black;
+    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     color: #F0F6Fc;
     height: 100px;
     text-align: center;
