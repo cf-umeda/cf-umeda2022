@@ -153,19 +153,29 @@ footer{
   padding: 20px;line-height: 200%;
 }
 
+.game_main{
+  background-image:url("./23062389.png");
+}
 .game_title{
-  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+  background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
   color: #F0F6Fc;
   text-align: center;
   font-size: 3vw;
   padding: 10px;
 }
 .game_element{
-  background:linear-gradient(70deg,#fb4cb2,50%,rgb(244, 191, 200));
+  background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
   color: #F0F6Fc;
   font-size: 2.5vw;
   margin: 20px;
   padding: 20px;line-height: 200%;
+}
+.game_footer{
+  background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
+  color: #F0F6Fc;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
 }
 @media screen and (min-width: 600px) {
   * {
@@ -318,13 +328,11 @@ footer{
   }
 
   .game_title{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
   .game_element{
-    background:linear-gradient(50deg,#fb4cb2,50%,rgb(244, 191, 200));
     color: #F0F6Fc;
     font-size: 2vw;
     margin: 40px;
@@ -481,14 +489,12 @@ footer{
   }
 
   .game_title{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
     color: #F0F6Fc;
     text-align: center;
     padding: 20px;
     font-size: 20px;
   }
   .game_element{
-    background:linear-gradient(20deg,#fb4cb2,50%,rgb(244, 191, 200));
     color: #F0F6Fc;
     font-size: 20px;
     margin: 40px;
