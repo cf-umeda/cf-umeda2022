@@ -395,7 +395,7 @@ footer{
     padding: 5px;
   }
   .concert_background{
-    background-image: url("./パス10.png");
+    background-image: url("./パス\ 10.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position:bottom;
