@@ -202,6 +202,8 @@ footer{
 }
 
 .game_main{
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-image:url("./23062389_2.png");
 }
 .game_title{
@@ -215,8 +217,12 @@ footer{
   background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
   color: #F0F6Fc;
   font-size: 2.5vw;
-  margin: 20px;
-  padding: 20px;line-height: 200%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  padding: 20px;
+  line-height: 200%;
 }
 .game_footer{
   background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
@@ -246,6 +252,16 @@ footer{
   height: 100px;
   text-align: center;
   padding-top: 50px;
+}
+
+.quiz_image{
+  width: 100%;
+}
+
+.icon_pagetop{
+  width: 40%;
+  padding-left:30%;
+  padding-right:30%;
 }
 @media screen and (min-width: 600px) {
   * {
@@ -470,6 +486,12 @@ footer{
     font-size: 2vw;
     margin: 40px;
     padding: 20px;line-height: 200%;
+  }
+
+  .icon_pagetop{
+    width: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
   }
 }
 @media screen and (min-width: 828px) {
@@ -697,4 +719,9 @@ footer{
     padding: 20px;line-height: 200%;
   }
 
+  .icon_pagetop{
+    width: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
 }
