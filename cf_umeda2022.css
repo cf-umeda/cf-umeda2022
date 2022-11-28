@@ -39,8 +39,8 @@ body {
 }
 .sticky_header_link{
   color: #e4eaef;
-  font-size: 4.6vw;
-  margin: 7px;
+  font-size: 5vw;
+  margin: 1vw;
 }
 header{
   background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
@@ -139,18 +139,66 @@ footer{
 
 
 .concert_title{
-  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
-  color: #F0F6Fc;
+  background-color: #ffffff;
+  color: #000000;
   text-align: center;
-  font-size: 3vw;
-  padding: 10px;
+  padding: 20px;
+  font-size: 2vw;
+}
+.concert_main{
+  background:linear-gradient(135deg,#3C91E6,#FFD400);
+  padding: 5px;
+}
+.concert_background{
+  background-image: url("./パス\ 9.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding-top: 20px;
+}
+.concert_background_2{
+  background-image: url("./パス\ 6.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding-top: 20px;
+}
+.concert_subtitle{
+  padding-left: 2vw;
+  font-size: 5vw;
+  color: #5F0A87;
+  line-height: 45px;
+  text-align:left ;
 }
 .concert_element{
-  background:linear-gradient(70deg,#fb4cb2,50%,rgb(244, 191, 200));
   color: #F0F6Fc;
-  font-size: 2.5vw;
-  margin: 20px;
-  padding: 20px;line-height: 200%;
+  font-size: 3.2vw;
+  padding-top: 0.5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 0.4vw;
+  line-height: 4.4vw;
+}
+.concert_element2{
+  color: #F0F6Fc;
+  font-size: 3.2vw;
+  padding-top: 0.5vw;
+  padding-left: 3.6vw;
+  padding-right: 1.9vw;
+  padding-bottom: 0.4vw;
+  line-height: 4.9vw;
+}
+.concert_footer{
+  background-color: #000000;
+  font-size: 16px;
+  color: #F0F6Fc;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .game_main{
@@ -179,18 +227,25 @@ footer{
 }
 
 .LT_title{
-  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+  background:linear-gradient(120deg,#FB8B24,#ffbc7c);
   color: #F0F6Fc;
   text-align: center;
   font-size: 3vw;
   padding: 10px;
 }
 .LT_element{
-  background:linear-gradient(70deg,#fb4cb2,50%,rgb(244, 191, 200));
+  background:linear-gradient(70deg,#FB8B24,50%,#ffbc7c);
   color: #F0F6Fc;
   font-size: 2.5vw;
   margin: 20px;
   padding: 20px;line-height: 200%;
+}
+.LT_footer{
+  background:linear-gradient(120deg,#FB8B24,70%,#ffbc7c);
+  color: #F0F6Fc;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
 }
 @media screen and (min-width: 600px) {
   * {
@@ -329,17 +384,66 @@ footer{
 
 
   .concert_title{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
+  .concert_main{
+    background:linear-gradient(135deg,#3C91E6,#FFD400);
+    padding: 5px;
+  }
+  .concert_background{
+    background-image: url("./パス10.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-top: 20px;
+  }
+  .concert_background_2{
+    background-image: url("./パス\ 11.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-top: 20px;
+  }
+  .concert_subtitle{
+    padding-left: 2vw;
+    font-size: 4.5vw;
+    color: #5F0A87;
+    line-height: 60px;
+    text-align:left ;
+  }
   .concert_element{
-    background:linear-gradient(50deg,#fb4cb2,50%,rgb(244, 191, 200));
     color: #F0F6Fc;
-    font-size: 2vw;
-    margin: 40px;
-    padding: 20px;line-height: 200%;
+    font-size: 2.4vw;
+    padding-top: 1vw;
+    padding-left: 35px;
+    padding-right: 28px;
+    padding-bottom: 0.6vw;
+    line-height: 3.8vw;
+  }
+  .concert_element2{
+    color: #F0F6Fc;
+    font-size: 2.4vw;
+    padding-top: 1.1vw;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0.6vw;
+    line-height: 3.9vw;
+  }
+  .concert_footer{
+    background-color: #000000;
+    font-size: 16px;
+    color: #F0F6Fc;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
   }
 
   .game_title{
@@ -355,20 +459,20 @@ footer{
   }
 
   .LT_title{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+    background:linear-gradient(120deg,#FB8B24,#ffbc7c);
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
   .LT_element{
-    background:linear-gradient(50deg,#fb4cb2,50%,rgb(244, 191, 200));
+    background:linear-gradient(70deg,#FB8B24,50%,#ffbc7c);
     color: #F0F6Fc;
     font-size: 2vw;
     margin: 40px;
     padding: 20px;line-height: 200%;
   }
 }
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 828px) {
   * {
     margin:0; padding:0;
   }
@@ -503,18 +607,66 @@ footer{
 
 
   .concert_title{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
-    color: #F0F6Fc;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .concert_main{
+    background:linear-gradient(135deg,#3C91E6,#FFD400);
+    padding: 5px;
+  }
+  .concert_background{
+    background-image: url("./パス\ 12.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 10px;
+  }
+  .concert_background_2{
+    background-image: url("./パス\ 13.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 10px;
+  }
+  .concert_subtitle{
+    padding-left: 6vw;
+    font-size: 3vw;
+    color: #5F0A87;
+    line-height: 40px;
+    text-align:left ;
   }
   .concert_element{
-    background:linear-gradient(20deg,#fb4cb2,50%,rgb(244, 191, 200));
     color: #F0F6Fc;
-    font-size: 20px;
-    margin: 40px;
-    padding: 20px;line-height: 200%;
+    font-size: 1.1vw;
+    padding-top: 1vw;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 0.6vw;
+    line-height: 1.6vw;
+  }
+  .concert_element2{
+    color: #F0F6Fc;
+    font-size: 1.1vw;
+    padding-top: 1vw;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 0.7vw;
+    line-height: 1.6vw;
+  }
+  .concert_footer{
+    background-color: #000000;
+    font-size: 16px;
+    color: #F0F6Fc;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
   }
 
   .game_title{
@@ -531,14 +683,14 @@ footer{
   }
 
   .LT_title{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+    background:linear-gradient(120deg,#FB8B24,#ffbc7c);
     color: #F0F6Fc;
     text-align: center;
     padding: 20px;
     font-size: 20px;
   }
   .LT_element{
-    background:linear-gradient(20deg,#fb4cb2,50%,rgb(244, 191, 200));
+    background:linear-gradient(70deg,#FB8B24,50%,#ffbc7c);
     color: #F0F6Fc;
     font-size: 20px;
     margin: 40px;
