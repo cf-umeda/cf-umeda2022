@@ -268,7 +268,7 @@ footer {
 
 .LT_title {
   background: linear-gradient(120deg, #FB8B24, #ffbc7c);
-  color: #F0F6Fc;
+  color: black;
   text-align: center;
   font-size: 3vw;
   padding: 10px;
@@ -276,7 +276,7 @@ footer {
 
 .LT_element {
   background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
-  color: #F0F6Fc;
+  color: black;
   font-size: 2.5vw;
   margin: 20px;
   padding: 20px;
@@ -285,7 +285,7 @@ footer {
 
 .LT_footer {
   background: linear-gradient(120deg, #FB8B24, 70%, #ffbc7c);
-  color: #F0F6Fc;
+  color: black;
   height: 100px;
   text-align: center;
   padding-top: 50px;
@@ -664,7 +664,7 @@ footer {
 
   .LT_title {
     background: linear-gradient(120deg, #FB8B24, #ffbc7c);
-    color: #F0F6Fc;
+    color: black;
     text-align: center;
     font-size: 3vw;
     padding: 10px;
@@ -672,7 +672,7 @@ footer {
 
   .LT_element {
     background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
-    color: #F0F6Fc;
+    color: black;
     font-size: 2.5vw;
     margin: 20px;
     padding: 20px;
@@ -681,7 +681,7 @@ footer {
 
   .LT_footer {
     background: linear-gradient(120deg, #FB8B24, 70%, #ffbc7c);
-    color: #F0F6Fc;
+    color: black;
     height: 100px;
     text-align: center;
     padding-top: 50px;
@@ -1043,7 +1043,7 @@ footer {
 
   .LT_element {
     background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
-    color: #F0F6Fc;
+    color: black;
     font-size: 2vw;
     margin: 40px;
     padding: 20px;
@@ -1052,7 +1052,7 @@ footer {
 
   .character_title {
     background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
-    color: #F0F6Fc;
+    color: black;
     padding-bottom: 20px;
     text-align: center;
     font-size: 2vw;
@@ -1405,7 +1405,7 @@ footer {
 
   .LT_title {
     background: linear-gradient(120deg, #FB8B24, #ffbc7c);
-    color: #F0F6Fc;
+    color: black;
     text-align: center;
     padding: 20px;
     font-size: 20px;
@@ -1413,7 +1413,7 @@ footer {
 
   .LT_element {
     background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
-    color: #F0F6Fc;
+    color: black;
     font-size: 20px;
     margin: 40px;
     padding: 20px;
