@@ -1,34 +1,41 @@
 * {
-  margin:0; padding:0;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-  font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-family: 游ゴシック, "Yu Gothic", "ヒラギノ角ゴ", HiraKaku, メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
-.sticky_header{
-  background-color:black;
-  height:13%;
+
+.sticky_header {
+  background-color: black;
+  height: 13%;
   padding: 6px;
   position: sticky;
   top: 0;
   z-index: 3;
 }
-.sticky_header_logo{
+
+.sticky_header_logo {
   padding-left: 5px;
   padding-top: 3px;
   float: left;
 }
-.sticky_header_title{
+
+.sticky_header_title {
   color: #F0F6Fc;
   text-align: center;
   line-height: 30px;
   font-size: 4vw;
 }
-.sticky_header_slogan{
+
+.sticky_header_slogan {
   color: #e4eaef;
   text-align: center;
   font-size: 4vw;
 }
-.sticky_header_nav{
+
+.sticky_header_nav {
   margin: 10px auto 0 auto;
   width: 95%;
   padding: 7px;
@@ -37,38 +44,46 @@ body {
   border-color: #e4eaef;
   clear: left;
 }
-.sticky_header_link{
+
+.sticky_header_link {
   color: #e4eaef;
   font-size: 5vw;
   margin: 1vw;
 }
-header{
-  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+header {
+  background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
   color: #F0F6Fc;
   padding-bottom: 20px;
 }
-.margin{
+
+.margin {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .title {
   font-size: 4vmax;
   text-align: center;
 }
+
 .headerslogan {
-  font-size:2.5vmax;
+  font-size: 2.5vmax;
   text-align: center;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: center;
 }
-.headerlink{
+
+.headerlink {
   font-size: 1.5vmax;
   float: left;
   margin: 10px;
 }
-#news{
+
+#news {
   margin: 2vw;
   padding: 3vw;
   background-color: rgb(255, 250, 251);
@@ -78,103 +93,117 @@ nav{
   border-color: #fa9ad2;
   font-size: 3.5vw;
 }
-.news_element{
+
+.news_element {
   border-top: solid;
   border-color: rgb(161, 172, 181);
   font-size: 3.3vw;
   padding-bottom: 1%;
   line-height: 5vw;
 }
-.slogan{
-  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+.slogan {
+  background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
   color: #F0F6Fc;
   padding: 20px;
   font-size: 1.5vmax;
   clear: left;
   text-align: center;
 }
-.chapter{
+
+.chapter {
   height: 100%;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.element{
+
+.element {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.map{
+
+.map {
   width: 90%;
   height: 100%;
   margin-bottom: 20px;
 }
 
-.traveltime{
+.traveltime {
   margin: 20px;
 }
-footer{
-  background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+footer {
+  background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
   color: #F0F6Fc;
   height: 100px;
   text-align: center;
   padding-top: 50px;
   clear: left;
 }
-.flex_2{
+
+.flex_2 {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
 }
-.icon{
-  width: 90%;
- }
 
-.timeschedule_title{
+.icon {
+  width: 90%;
+}
+
+.timeschedule_title {
   text-align: center;
 }
-.timeschedule_img{
+
+.timeschedule_img {
   width: 100%;
 }
 
 
-.concert_title{
+.concert_title {
   background-color: #ffffff;
   color: #000000;
   text-align: center;
   padding: 20px;
   font-size: 2vw;
 }
-.concert_main{
-  background:linear-gradient(135deg,#3C91E6,#FFD400);
+
+.concert_main {
+  background: linear-gradient(135deg, #3C91E6, #FFD400);
   padding: 5px;
 }
-.concert_background{
+
+.concert_background {
   background-image: url("./パス\ 9.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position:bottom;
+  background-position: bottom;
   margin-left: 3vw;
   margin-right: 3vw;
   padding-top: 20px;
 }
-.concert_background_2{
+
+.concert_background_2 {
   background-image: url("./パス\ 6.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position:bottom;
+  background-position: bottom;
   margin-left: 3vw;
   margin-right: 3vw;
   padding-top: 20px;
 }
-.concert_subtitle{
+
+.concert_subtitle {
   padding-left: 2vw;
   font-size: 5vw;
   color: #5F0A87;
   line-height: 45px;
-  text-align:left ;
+  text-align: left;
 }
-.concert_element{
+
+.concert_element {
   color: black;
   font-size: 3.2vw;
   padding-top: 0.5vw;
@@ -183,7 +212,8 @@ footer{
   padding-bottom: 0.4vw;
   line-height: 4.4vw;
 }
-.concert_element2{
+
+.concert_element2 {
   color: black;
   font-size: 3.2vw;
   padding-top: 0.5vw;
@@ -192,7 +222,8 @@ footer{
   padding-bottom: 0.4vw;
   line-height: 4.9vw;
 }
-.concert_footer{
+
+.concert_footer {
   background-color: #000000;
   font-size: 16px;
   color: #F0F6Fc;
@@ -201,20 +232,22 @@ footer{
   padding-top: 50px;
 }
 
-.game_main{
+.game_main {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image:url("./23062389_2.png");
+  background-image: url("./23062389_2.png");
 }
-.game_title{
-  background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
+
+.game_title {
+  background: linear-gradient(120deg, #3C91E6, 70%, #a5c6e6);
   color: #F0F6Fc;
   text-align: center;
   font-size: 3vw;
   padding: 10px;
 }
-.game_element{
-  background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
+
+.game_element {
+  background: linear-gradient(120deg, #3C91E6, 70%, #a5c6e6);
   color: #F0F6Fc;
   font-size: 2.5vw;
   margin-top: 20px;
@@ -224,53 +257,551 @@ footer{
   padding: 20px;
   line-height: 200%;
 }
-.game_footer{
-  background:linear-gradient(120deg,#3C91E6,70%,#a5c6e6);
+
+.game_footer {
+  background: linear-gradient(120deg, #3C91E6, 70%, #a5c6e6);
   color: #F0F6Fc;
   height: 100px;
   text-align: center;
   padding-top: 50px;
 }
 
-.LT_title{
-  background:linear-gradient(120deg,#FB8B24,#ffbc7c);
+.LT_title {
+  background: linear-gradient(120deg, #FB8B24, #ffbc7c);
   color: #F0F6Fc;
   text-align: center;
   font-size: 3vw;
   padding: 10px;
 }
-.LT_element{
-  background:linear-gradient(70deg,#FB8B24,50%,#ffbc7c);
+
+.LT_element {
+  background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
   color: #F0F6Fc;
   font-size: 2.5vw;
   margin: 20px;
-  padding: 20px;line-height: 200%;
+  padding: 20px;
+  line-height: 200%;
 }
-.LT_footer{
-  background:linear-gradient(120deg,#FB8B24,70%,#ffbc7c);
+
+.LT_footer {
+  background: linear-gradient(120deg, #FB8B24, 70%, #ffbc7c);
   color: #F0F6Fc;
   height: 100px;
   text-align: center;
   padding-top: 50px;
 }
 
-.quiz_image{
+.quiz_image {
   width: 100%;
 }
 
-.icon_pagetop{
-  width: 40%;
-  padding-left:30%;
-  padding-right:30%;
+.character_title {
+  background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+  color: #F0F6Fc;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 4vw;
 }
+
+.character_image {
+  height: 60%;
+}
+
+.character_element {
+  border: solid;
+  margin: 20px;
+  padding-right: 2vw;
+  border-width: 7px;
+  border-radius: 40px;
+  display: flex;
+  color: #F0F6Fc;
+  height: 60vw;
+}
+
+.character_text {
+  font-size: 2vw;
+  padding: 2vw;
+  line-height: 4vw;
+}
+
+#haru {
+  border-color: #E61772;
+  background-color: #390423;
+}
+
+#haru_1_art {
+  width: 98%;
+  margin: 1%;
+}
+
+#haru_2_art {
+  width: 98%;
+  margin: 1%;
+}
+
+#haru_3_art {
+  width: 98%;
+  margin: 1%;
+}
+
+#suika {
+  border-color: #13AF68;
+  background-color: #00291D;
+}
+
+#suika_1_art {
+  width: 98%;
+  margin: 1%;
+}
+
+#suika_2_art {
+  width: 98%;
+  padding: 1%;
+}
+
+#neon_bg {
+  background: linear-gradient(45deg, #3C91E6, #EE1A97);
+  border-radius: 44px;
+  margin: 20px;
+}
+
+#neon {
+  margin: 8px;
+  background-color: #1f1e1e;
+  border-color: #1f1e1e;
+  border-radius: 40px;
+}
+
+#neon_1_art {
+  width: 98%;
+  margin: 1%;
+}
+
+#neon_2_art {
+  width: 98%;
+  margin: 1%;
+}
+
+#neon_3_art {
+  width: 98%;
+  margin: 1%;
+}
+
+
+.icon_pagetop {
+  width: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+@media screen and (min-width: 332px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 游ゴシック, "Yu Gothic", "ヒラギノ角ゴ", HiraKaku, メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  }
+
+  .sticky_header {
+    background-color: black;
+    height: 13%;
+    padding: 6px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+
+  .sticky_header_logo {
+    padding-left: 5px;
+    padding-top: 3px;
+    float: left;
+  }
+
+  .sticky_header_title {
+    color: #F0F6Fc;
+    text-align: center;
+    line-height: 30px;
+    font-size: 4vw;
+  }
+
+  .sticky_header_slogan {
+    color: #e4eaef;
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .sticky_header_nav {
+    margin: 10px auto 0 auto;
+    width: 95%;
+    padding: 7px;
+    border-top: solid;
+    border-width: 2px;
+    border-color: #e4eaef;
+    clear: left;
+  }
+
+  .sticky_header_link {
+    color: #e4eaef;
+    font-size: 5vw;
+    margin: 1vw;
+  }
+
+  header {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+    color: #F0F6Fc;
+    padding-bottom: 20px;
+  }
+
+  .margin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title {
+    font-size: 4vmax;
+    text-align: center;
+  }
+
+  .headerslogan {
+    font-size: 2.5vmax;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerlink {
+    font-size: 1.5vmax;
+    float: left;
+    margin: 10px;
+  }
+
+  #news {
+    margin: 2vw;
+    padding: 3vw;
+    background-color: rgb(255, 250, 251);
+    border: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #fa9ad2;
+    font-size: 3.5vw;
+  }
+
+  .news_element {
+    border-top: solid;
+    border-color: rgb(161, 172, 181);
+    font-size: 3.3vw;
+    padding-bottom: 1%;
+    line-height: 5vw;
+  }
+
+  .slogan {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+    color: #F0F6Fc;
+    padding: 20px;
+    font-size: 1.5vmax;
+    clear: left;
+    text-align: center;
+  }
+
+  .chapter {
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .element {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .map {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .traveltime {
+    margin: 20px;
+  }
+
+  footer {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+    color: #F0F6Fc;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    clear: left;
+  }
+
+  .flex_2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    width: 90%;
+  }
+
+  .timeschedule_title {
+    text-align: center;
+  }
+
+  .timeschedule_img {
+    width: 100%;
+  }
+
+
+  .concert_title {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 2vw;
+  }
+
+  .concert_main {
+    background: linear-gradient(135deg, #3C91E6, #FFD400);
+    padding: 5px;
+  }
+
+  .concert_background {
+    background-image: url("./パス\ 9.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-top: 20px;
+  }
+
+  .concert_background_2 {
+    background-image: url("./パス\ 6.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-top: 20px;
+  }
+
+  .concert_subtitle {
+    padding-left: 2vw;
+    font-size: 5vw;
+    color: #5F0A87;
+    line-height: 45px;
+    text-align: left;
+  }
+
+  .concert_element {
+    color: black;
+    font-size: 3.2vw;
+    padding-top: 0.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 0.4vw;
+    line-height: 4.4vw;
+  }
+
+  .concert_element2 {
+    color: black;
+    font-size: 3.2vw;
+    padding-top: 0.5vw;
+    padding-left: 3.6vw;
+    padding-right: 1.9vw;
+    padding-bottom: 0.4vw;
+    line-height: 4.9vw;
+  }
+
+  .concert_footer {
+    background-color: #000000;
+    font-size: 16px;
+    color: #F0F6Fc;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .game_main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("./23062389_2.png");
+  }
+
+  .game_title {
+    background: linear-gradient(120deg, #3C91E6, 70%, #a5c6e6);
+    color: #F0F6Fc;
+    text-align: center;
+    font-size: 3vw;
+    padding: 10px;
+  }
+
+  .game_element {
+    background: linear-gradient(120deg, #3C91E6, 70%, #a5c6e6);
+    color: #F0F6Fc;
+    font-size: 2.5vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    padding: 20px;
+    line-height: 200%;
+  }
+
+  .game_footer {
+    background: linear-gradient(120deg, #3C91E6, 70%, #a5c6e6);
+    color: #F0F6Fc;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .LT_title {
+    background: linear-gradient(120deg, #FB8B24, #ffbc7c);
+    color: #F0F6Fc;
+    text-align: center;
+    font-size: 3vw;
+    padding: 10px;
+  }
+
+  .LT_element {
+    background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
+    color: #F0F6Fc;
+    font-size: 2.5vw;
+    margin: 20px;
+    padding: 20px;
+    line-height: 200%;
+  }
+
+  .LT_footer {
+    background: linear-gradient(120deg, #FB8B24, 70%, #ffbc7c);
+    color: #F0F6Fc;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .quiz_image {
+    width: 100%;
+  }
+
+  .character_title {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+    color: #F0F6Fc;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+  .character_image {
+    height: 90%;
+  }
+
+  .character_element {
+    border: solid;
+    margin: 20px;
+    padding-right: 2vw;
+    border-width: 7px;
+    border-radius: 40px;
+    display: flex;
+    color: #F0F6Fc;
+    height: 40vw;
+  }
+
+  .character_text {
+    font-size: 2vw;
+    padding: 2vw;
+    line-height: 4vw;
+  }
+
+  #haru {
+    border-color: #E61772;
+    background-color: #390423;
+  }
+
+  #haru_1_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+  #haru_2_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+  #haru_3_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+  #suika {
+    border-color: #13AF68;
+    background-color: #00291D;
+  }
+
+  #suika_1_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+  #suika_2_art {
+    width: 98%;
+    padding: 1%;
+  }
+
+  #neon_bg {
+    background: linear-gradient(45deg, #3C91E6, #EE1A97);
+    border-radius: 44px;
+    margin: 20px;
+  }
+
+  #neon {
+    margin: 8px;
+    background-color: #1f1e1e;
+    border-color: #1f1e1e;
+    border-radius: 40px;
+  }
+
+  #neon_1_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+  #neon_2_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+  #neon_3_art {
+    width: 98%;
+    margin: 1%;
+  }
+
+
+  .icon_pagetop {
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
 @media screen and (min-width: 600px) {
   * {
-    margin:0; padding:0;
+    margin: 0;
+    padding: 0;
   }
+
   body {
-    font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+    font-family: 游ゴシック, "Yu Gothic", "ヒラギノ角ゴ", HiraKaku, メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   }
-  .sticky_header{
+
+  .sticky_header {
     background-color: black;
     height: 60px;
     display: flex;
@@ -278,62 +809,74 @@ footer{
     top: 0;
     z-index: 3;
   }
-  .sticky_header_logo{
+
+  .sticky_header_logo {
     padding-left: 15px;
     padding-top: 3px;
   }
-  .sticky_header_title{
+
+  .sticky_header_title {
     color: #F0F6Fc;
     padding-left: 15px;
     text-align: left;
     line-height: 30px;
     font-size: 2vw;
-    
+
   }
-  .sticky_header_slogan{
+
+  .sticky_header_slogan {
     color: #e4eaef;
     padding-left: 15px;
     text-align: left;
     margin-bottom: 30px;
     font-size: 2vw;
   }
-  .sticky_header_nav{
-    border-top:none;
+
+  .sticky_header_nav {
+    border-top: none;
     width: 45%;
     padding: 0px;
     margin: 15px 10px 0 auto;
   }
-  .sticky_header_link{
+
+  .sticky_header_link {
     color: #e4eaef;
     font-size: 2.2vw;
     margin: 5px;
   }
-  header{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+  header {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
     padding-bottom: 20px;
   }
-  .margin{
+
+  .margin {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .title {
     font-size: 4vmax;
     text-align: center;
   }
+
   .headerslogan {
-    font-size:2.5vmax;
+    font-size: 2.5vmax;
     text-align: center;
   }
-  nav{
+
+  nav {
     display: flex;
     justify-content: center;
   }
-  .headerlink{
+
+  .headerlink {
     font-size: 1.5vmax;
     float: left;
     margin: 10px;
   }
-  #news{
+
+  #news {
     margin-top: 2vw;
     margin-bottom: 3.2vw;
     padding: 1vw;
@@ -344,98 +887,111 @@ footer{
     border-color: rgb(255, 218, 225);
     font-size: 1.5vw;
   }
-  .news_element{
+
+  .news_element {
     border-top: solid;
     border-color: rgb(161, 172, 181);
     font-size: 1.5vw;
     padding-bottom: 2px;
     line-height: 2vw;
   }
-  .slogan{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+  .slogan {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
     padding: 20px;
     font-size: 1.5vmax;
     clear: left;
   }
-  .chapter{
+
+  .chapter {
     height: 100%;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .element{
+
+  .element {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .map{
+
+  .map {
     float: left;
     margin-right: 50px;
     width: 313px;
     height: 100%;
   }
-  
-  .traveltime{
+
+  .traveltime {
     margin: 20px;
   }
-  footer{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+  footer {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
     height: 100px;
     text-align: center;
     padding-top: 50px;
     clear: left;
   }
-  
-  .flex{
+
+  .flex {
     display: flex;
   }
-  .flex_2{
+
+  .flex_2 {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
   }
-  .icon{
+
+  .icon {
     width: 80%;
   }
 
 
-  .concert_title{
+  .concert_title {
     background-color: #ffffff;
     color: #000000;
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
-  .concert_main{
-    background:linear-gradient(135deg,#3C91E6,#FFD400);
+
+  .concert_main {
+    background: linear-gradient(135deg, #3C91E6, #FFD400);
     padding: 5px;
   }
-  .concert_background{
+
+  .concert_background {
     background-image: url("./パス\ 10.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     margin-left: 4vw;
     margin-right: 4vw;
     padding-top: 20px;
   }
-  .concert_background_2{
+
+  .concert_background_2 {
     background-image: url("./パス\ 11.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     margin-left: 4vw;
     margin-right: 4vw;
     padding-top: 20px;
   }
-  .concert_subtitle{
+
+  .concert_subtitle {
     padding-left: 2vw;
     font-size: 4.5vw;
     color: #5F0A87;
     line-height: 60px;
-    text-align:left ;
+    text-align: left;
   }
-  .concert_element{
+
+  .concert_element {
     color: black;
     font-size: 2.4vw;
     padding-top: 1vw;
@@ -444,7 +1000,8 @@ footer{
     padding-bottom: 0.6vw;
     line-height: 3.8vw;
   }
-  .concert_element2{
+
+  .concert_element2 {
     color: black;
     font-size: 2.4vw;
     padding-top: 1.1vw;
@@ -453,7 +1010,8 @@ footer{
     padding-bottom: 0.6vw;
     line-height: 3.9vw;
   }
-  .concert_footer{
+
+  .concert_footer {
     background-color: #000000;
     font-size: 16px;
     color: #F0F6Fc;
@@ -462,104 +1020,228 @@ footer{
     padding-top: 50px;
   }
 
-  .game_title{
+  .game_title {
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
-  .game_element{
+
+  .game_element {
     color: #F0F6Fc;
     font-size: 2vw;
     margin: 40px;
-    padding: 20px;line-height: 200%;
+    padding: 20px;
+    line-height: 200%;
   }
 
-  .LT_title{
-    background:linear-gradient(120deg,#FB8B24,#ffbc7c);
+  .LT_title {
+    background: linear-gradient(120deg, #FB8B24, #ffbc7c);
     text-align: center;
     padding: 20px;
     font-size: 2vw;
   }
-  .LT_element{
-    background:linear-gradient(70deg,#FB8B24,50%,#ffbc7c);
+
+  .LT_element {
+    background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
     color: #F0F6Fc;
     font-size: 2vw;
     margin: 40px;
-    padding: 20px;line-height: 200%;
+    padding: 20px;
+    line-height: 200%;
   }
 
-  .icon_pagetop{
+  .character_title {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+    color: #F0F6Fc;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  .character_image {
+    height: 100%;
+  }
+
+  .character_element {
+    border: solid;
+    margin: 20px;
+    padding-right: 1vw;
+    border-width: 7px;
+    border-radius: 40px;
+    display: flex;
+    color: #F0F6Fc;
+    height: 23vw;
+  }
+
+  .character_text {
+    font-size: 1.3vw;
+    padding: 0.2vw;
+    line-height: 2.3vw;
+  }
+
+  #haru {
+    border-color: #E61772;
+    background-color: #390423;
+  }
+
+  #haru_1_art {
+    width: auto;
+    height: 19vw;
+    margin: 20px;
+    padding-top: 7px;
+  }
+
+  #haru_2_art {
+    height: 29vw;
+    margin: 2vw;
+    border: solid;
+    border-radius: 10px
+  }
+
+  #haru_3_art {
+    height: 29vw;
+    margin: 2vw;
+    border: solid;
+    border-color: #ffffff;
+  }
+
+  #suika {
+    border-color: #13AF68;
+    background-color: #00291D;
+  }
+
+  #suika_1_art {
+    width: auto;
+    height: 19vw;
+    margin: 20px;
+    padding-top: 7px;
+  }
+
+  #suika_2_art {
+    width: 98%;
+    padding: 1%;
+  }
+
+  #neon_bg {
+    background: linear-gradient(45deg, #3C91E6, #EE1A97);
+    border-radius: 44px;
+    margin: 20px;
+  }
+
+  #neon {
+    margin: 8px;
+    background-color: #1f1e1e;
+    border-color: #1f1e1e;
+    border-radius: 40px;
+  }
+
+  #neon_1_art {
+    width: auto;
+    height: 19vw;
+    margin: 20px;
+    padding-top: 14px;
+  }
+
+  #neon_2_art {
+    height: 25vw;
+    margin: 20px;
+  }
+
+  #neon_3_art {
+    height: 25vw;
+    margin: 20px;
+  }
+
+
+
+  .icon_pagetop {
     width: 30%;
     padding-left: 35%;
     padding-right: 35%;
   }
 }
+
 @media screen and (min-width: 828px) {
   * {
-    margin:0; padding:0;
+    margin: 0;
+    padding: 0;
   }
+
   body {
-    font-family:  游ゴシック, "Yu Gothic","ヒラギノ角ゴ", HiraKaku,  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+    font-family: 游ゴシック, "Yu Gothic", "ヒラギノ角ゴ", HiraKaku, メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   }
-  .sticky_header{
-    background-color:black;
+
+  .sticky_header {
+    background-color: black;
     height: 60px;
     display: flex;
   }
-  .sticky_header_logo{
+
+  .sticky_header_logo {
     padding-left: 20px;
     padding-top: 3px;
   }
-  .sticky_header_title{
+
+  .sticky_header_title {
     color: #F0F6Fc;
     padding-left: 20px;
     line-height: 30px;
     font-size: 20px;
   }
-  .sticky_header_slogan{
+
+  .sticky_header_slogan {
     color: #e4eaef;
     padding-left: 20px;
     margin-bottom: 30px;
     font-size: 20px;
   }
-  .sticky_header_nav{
-    border-top:none;
+
+  .sticky_header_nav {
+    border-top: none;
     width: 370px;
     padding: 0px;
     margin: 10px 10px 0 auto;
   }
-  .sticky_header_link{
+
+  .sticky_header_link {
     color: #e4eaef;
     font-size: 18px;
     margin: 5px;
   }
-  header{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+  header {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
     color: #F0F6Fc;
     padding-bottom: 20px;
   }
-  .margin{
+
+  .margin {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .title {
     font-size: 4vmax;
     text-align: center;
   }
+
   .headerslogan {
-    font-size:2.5vmax;
+    font-size: 2.5vmax;
     text-align: center;
   }
-  nav{
+
+  nav {
     display: flex;
     justify-content: center;
   }
-  .headerlink{
+
+  .headerlink {
     font-size: 1.5vmax;
     float: left;
     margin: 10px;
   }
-  #news{
+
+  #news {
     margin-top: 3vw;
     margin-bottom: 2vw;
     padding: 1vw;
@@ -570,101 +1252,114 @@ footer{
     border-color: rgb(255, 218, 225);
     font-size: 1.15vw;
   }
-  .news_element{
+
+  .news_element {
     border-top: solid;
     border-color: rgb(161, 172, 181);
     font-size: 1.15vw;
     padding-bottom: 2px;
     line-height: 1.5vw;
   }
-  .slogan{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+  .slogan {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
     color: #F0F6Fc;
     padding: 20px;
     font-size: 1.5vmax;
     clear: left;
   }
-  .chapter{
+
+  .chapter {
     height: 100%;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
-  .element{
+
+  .element {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .map{
+
+  .map {
     float: left;
     margin-right: 50px;
     width: 313px;
     height: 100%;
   }
-  
-  .traveltime{
+
+  .traveltime {
     margin: 20px;
   }
-  footer{
-    background:linear-gradient(120deg,#EE1A97,rgb(244, 191, 200));
+
+  footer {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
     color: #F0F6Fc;
     height: 100px;
     text-align: center;
     padding-top: 50px;
     clear: left;
   }
-  
-  .flex{
+
+  .flex {
     display: flex;
   }
-  .flex_2{
+
+  .flex_2 {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
   }
-   .icon{
+
+  .icon {
     width: 80%;
   }
 
 
 
-  .concert_title{
+  .concert_title {
     background-color: #ffffff;
     color: #000000;
     text-align: center;
     padding: 20px;
     font-size: 15px;
   }
-  .concert_main{
-    background:linear-gradient(135deg,#3C91E6,#FFD400);
+
+  .concert_main {
+    background: linear-gradient(135deg, #3C91E6, #FFD400);
     padding: 5px;
   }
-  .concert_background{
+
+  .concert_background {
     background-image: url("./パス\ 12.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     margin-left: 1vw;
     margin-right: 1vw;
     padding-top: 10px;
   }
-  .concert_background_2{
+
+  .concert_background_2 {
     background-image: url("./パス\ 13.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     margin-left: 1vw;
     margin-right: 1vw;
     padding-top: 10px;
   }
-  .concert_subtitle{
+
+  .concert_subtitle {
     padding-left: 6vw;
     font-size: 3vw;
     color: #5F0A87;
     line-height: 40px;
-    text-align:left ;
+    text-align: left;
   }
-  .concert_element{
+
+  .concert_element {
     color: black;
     font-size: 1.1vw;
     padding-top: 1vw;
@@ -673,7 +1368,8 @@ footer{
     padding-bottom: 0.6vw;
     line-height: 1.6vw;
   }
-  .concert_element2{
+
+  .concert_element2 {
     color: black;
     font-size: 1.1vw;
     padding-top: 1vw;
@@ -682,7 +1378,8 @@ footer{
     padding-bottom: 0.7vw;
     line-height: 1.6vw;
   }
-  .concert_footer{
+
+  .concert_footer {
     background-color: #000000;
     font-size: 16px;
     color: #F0F6Fc;
@@ -691,35 +1388,140 @@ footer{
     padding-top: 50px;
   }
 
-  .game_title{
+  .game_title {
     color: #F0F6Fc;
     text-align: center;
     padding: 20px;
     font-size: 20px;
   }
-  .game_element{
+
+  .game_element {
     color: #F0F6Fc;
     font-size: 20px;
     margin: 40px;
-    padding: 20px;line-height: 200%;
+    padding: 20px;
+    line-height: 200%;
   }
 
-  .LT_title{
-    background:linear-gradient(120deg,#FB8B24,#ffbc7c);
+  .LT_title {
+    background: linear-gradient(120deg, #FB8B24, #ffbc7c);
     color: #F0F6Fc;
     text-align: center;
     padding: 20px;
     font-size: 20px;
   }
-  .LT_element{
-    background:linear-gradient(70deg,#FB8B24,50%,#ffbc7c);
+
+  .LT_element {
+    background: linear-gradient(70deg, #FB8B24, 50%, #ffbc7c);
     color: #F0F6Fc;
     font-size: 20px;
     margin: 40px;
-    padding: 20px;line-height: 200%;
+    padding: 20px;
+    line-height: 200%;
   }
 
-  .icon_pagetop{
+  .character_title {
+    background: linear-gradient(120deg, #EE1A97, rgb(244, 191, 200));
+    color: #F0F6Fc;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  .character_image {
+    height: 100%;
+  }
+
+  .character_element {
+    border: solid;
+    margin: 20px;
+    padding-right: 2vw;
+    border-width: 7px;
+    border-radius: 40px;
+    display: flex;
+    color: #F0F6Fc;
+    height: 17vw;
+  }
+
+  .character_text {
+    font-size: 1.3vw;
+    padding: 0.5vw;
+    line-height: 2.3vw;
+  }
+
+  #haru {
+    border-color: #E61772;
+    background-color: #390423;
+  }
+
+  #haru_1_art {
+    height: 17vw;
+    margin: 20px;
+    padding-top: 7px;
+  }
+
+  #haru_2_art {
+    height: 29vw;
+    margin: 2vw;
+    border: solid;
+    border-radius: 10px
+  }
+
+  #haru_3_art {
+    height: 29vw;
+    margin: 2vw;
+    border: solid;
+    border-color: #ffffff;
+  }
+
+  #suika {
+    border-color: #13AF68;
+    background-color: #00291D;
+  }
+
+  #suika_1_art {
+    height: 17vw;
+    margin: 20px;
+    padding-top: 7px;
+  }
+
+  #suika_2_art {
+    width: 98%;
+    padding: 1%;
+  }
+
+  #neon_bg {
+    background: linear-gradient(45deg, #3C91E6, #EE1A97);
+    border-radius: 44px;
+    margin: 20px;
+  }
+
+  #neon {
+    margin: 8px;
+    background-color: #1f1e1e;
+    border-color: #1f1e1e;
+    border-radius: 40px;
+  }
+
+  #neon_1_art {
+    height: 17vw;
+    margin: 20px;
+    padding-top: 14px;
+  }
+
+  #neon_2_art {
+    height: 25vw;
+    margin: 20px;
+  }
+
+  #neon_3_art {
+    height: 25vw;
+    margin: 20px;
+  }
+
+
+
+  .icon_pagetop {
     width: 20%;
     padding-left: 40%;
     padding-right: 40%;
