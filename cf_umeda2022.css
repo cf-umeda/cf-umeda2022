@@ -393,6 +393,12 @@ footer {
   padding-left: 30%;
   padding-right: 30%;
 }
+
+.live_stream_URL{
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 7vw;
+}
 @media screen and (min-width: 332px) {
   * {
     margin: 0;
@@ -789,6 +795,12 @@ footer {
     padding-left: 30%;
     padding-right: 30%;
   }
+
+.live_stream_URL{
+  font-size: 3vw;
+  text-align: center;
+  line-height: 7vw;
+}
 }
 
 @media screen and (min-width: 600px) {
@@ -1159,6 +1171,12 @@ footer {
     padding-left: 35%;
     padding-right: 35%;
   }
+
+.live_stream_URL{
+  font-size: 3vw;
+  text-align: center;
+  line-height: 7vw;
+}
 }
 
 @media screen and (min-width: 828px) {
@@ -1526,4 +1544,10 @@ footer {
     padding-left: 40%;
     padding-right: 40%;
   }
+
+.live_stream_URL{
+  font-size: 2vw;
+  text-align: center;
+  line-height: 7vw;
+}
 }
